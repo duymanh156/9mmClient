@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "fentanyl",
+  "version": "${version}",
+  "name": "ninemmteam",
+  "description": "fent@nyl client",
+  "authors": [
+    "00i",
+    "Daph7",
+    "Moz4rt"
+  ],
+  "accessWidener": "kappa.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.ninemmteam.fentanyl"
+    ]
+  },
+  "mixins": [
+    "kappa.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.15.0",
+    "minecraft": "1.21.1",
+    "java": "\u003e\u003d17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/lwjgl-nanovg-3.3.3-natives-linux.jar"
+    },
+    {
+      "file": "META-INF/jars/lwjgl-nanovg-3.3.3-natives-macos.jar"
+    },
+    {
+      "file": "META-INF/jars/lwjgl-nanovg-3.3.3-natives-windows.jar"
+    },
+    {
+      "file": "META-INF/jars/lwjgl-nanovg-3.3.3.jar"
+    },
+    {
+      "file": "META-INF/jars/satin-2.0.0.jar"
+    }
+  ]
+}
